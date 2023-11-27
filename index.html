@@ -9,13 +9,15 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Generate a <br /><span>Random Password</span></h1>
-        <div class="display">
-            <input type="text" id="password" placeholder="Password" />
-            <img onclick="copyPassword()" src="images/copy.png" />
+    <div class="wrapper">
+        <div class="container">
+            <h1>Generate a <span>Random Password</span></h1>
+            <div class="display">
+                <input type="text" id="password" placeholder="Password" />
+                <img onclick="copyPassword()" src="images/copy.png" />
+            </div>
+            <button onclick="createPassword()"><img src="images/generate.png">Generate Password</button>
         </div>
-        <button onclick="createPassword()"><img src="images/generate.png">Generate Password</button>
     </div>
 
 
